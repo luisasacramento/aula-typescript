@@ -1,4 +1,5 @@
 //Interface
+
 // ex 1
 interface Carro {
     marca: string;
@@ -17,31 +18,7 @@ interface Carro {
   
   
   console.log(meuCarro);
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 //ex 2
 interface Multiplicacao {
     (num1: number, num2: number): number; 
@@ -58,6 +35,7 @@ console.log(multiplicar(0, 100));
 
 //Generics
 //ex 3
+
 function inverterArray<T>(arr: T[]): T[] {
     return arr.reverse(); 
   }
@@ -113,6 +91,7 @@ interface Repositorio<T> {
 
 // Manipulação Avançada de Tipos
 //ex 5
+
 type RespostaServidor = string | boolean;
 
 
@@ -130,6 +109,7 @@ processarResposta(false);
 
 
 //ex 6
+
 interface Estudante {
     nome: string;
     curso: string;
